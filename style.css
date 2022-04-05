@@ -1,0 +1,63 @@
+html {
+    min-height: 100%;
+    background-image: url("file:///C:/Users/dalmi/OneDrive/Desktop/My%20portofolio/Freecodecamp%20certification/Survey%20Form/images/backg12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    margin: 70px;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #700413;
+    font-family: "Brush Script MT";
+}
+#description {
+    text-align: center;
+    font-size: 30px;
+}
+#name {
+    margin: 20px 0px 10px 20px;
+}
+#email {
+    margin: 10px 0px 10px 20px;
+}
+#number {
+    margin: 10px 0px 10px 20px;
+}
+#type {
+    text-align: center;
+    font-size: 20px;
+}
+#dropdown {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Goudy Old Style";
+    background-color: lightpink;
+}
+#choose {
+    text-align: center;
+    font-size: 20px;
+}
+#size {
+    text-align: center;
+    font-size: 20px;
+}
+#pattern {
+    text-align: center;
+    font-size: 20px;
+}
+#ques {
+    text-align: center;
+    font-size: 20px;
+}
+#button {
+    text-align: center;
+    margin: 15px;
+}
+#submit {
+    font-size: 25px;
+    background-color: lightsteelblue;
+    color:#700413;
+}

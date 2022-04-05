@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="title">Are you a "yarnie"?</h1>
+  <p id="description">This little survey will help you to increase your creativity if you are a crocheter or knitter.</p>
+  <form id="survey-form">
+    <fieldset>
+      <legend>Before we start this little survey we would like to know you a little bit.</legend>
+      <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+      <label for="name" id="name-label">Name</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email here" required>
+      <label for="email"id="email-label">Email</label><br>
+      <input type="number" id="number" name="age" min="15" max="55" placeholder="Age">
+      <label for="number" id="number-label">How old are you</label>
+    </fieldset>
+    <div id="type">
+    <h2>Type of yarn</h2>
+    <p>What type of yarn do you prefer to knit or crochet with?<br>
+       There are many different types of yarn and <a href="https://knittingknowledge.com/knitting-guides/yarn-types/" target="_blank">here</a> is a little guide that explains how they differ in fiber, material, and usage. </p>
+    <select id="dropdown" name="yarn-type">
+      <option>Wool</option>
+      <option>Alpaca</option>
+      <option>Cashmere</option>
+      <option>Mohair</option>
+      <option>Angora</option>
+      <option>Llama</option>
+      <option>Cotton</option>
+      <option>Silk</option>
+      <option>Linen</option>
+      <option>Bamboo</option>
+      <option>Hemp</option>
+    </select>
+  </div>
+    <div id="choose">
+      <h2>Are you a knitter or a crocheter?</h2>
+      <input type="radio" id="knitter" name="crafty" value="knit">
+      <label for="knitter">Knitter</label>
+      <input type="radio" id="crocheter" name="crafty" value="crochet">
+      <label for="crochet">Crocheter</label>
+    </div>
+    <div id="size">
+      <h2>In which range of sizes are you comfortable to work?</h2>
+        <p>Knitting Needle and Crochet Hook Sizes(U.S. sizes)</p>
+      <input type="checkbox" id="small" name="small" value="small">
+      <label for="small">Between 0 and 2</label><br>
+      <input type="checkbox" id="medium1" name="medium1" value="medium1">
+      <label for="medium1">Between 2 and 5</label><br>
+      <input type="checkbox" id="medium2" name="medium2" value="medium2">
+      <label for="medium2">Between 5 and 8</label><br>
+      <input type="checkbox" id="big" name="big" value="big">
+      <label for="big">8 and bigger</label>
+      <p>This sizes can be confusing sometimes so for better understanding it's preferable to look at a <a href="https://www.numei.com/needle-sizes.html" target="_blank">conversion chart</a> because different countries have different ways of numbering their needles.</p>
+    </div>
+    <p id="pattern">For a little inspiration, <a href="https://knitsnknots.ca/category/patterns/" target="_blank">here</a> are some patterns from <em>knitsnknots.</em></p>
+    <div>
+
+    <div id="ques">
+    <label for="questions">Tell us your questions<br></label>
+    <textarea id="questions" names="questions" rows="3" cols="50">Enter your questions here</textarea><br>
+   </div>
+   <div id="button">
+    <input type="submit" id="submit" value="Submit">
+   </div>
+  </form>
+</body>
+</html>
